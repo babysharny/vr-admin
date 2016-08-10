@@ -1,0 +1,37 @@
+.main {
+  background-color: #3A3A3A;
+  padding: 30px 10% 30px 10%;
+  height: 100%;
+}
+
+h1.title {
+  text-align: center;
+}
+
+.bonus-block {
+  text-align: right;
+}
+
+.game {
+  padding: 3px 3px 3px 3px !important;
+  /*background-color: #01ff70;*/
+  width: 100%;
+  height: auto;
+}
+
+.selected {
+  color: #3A3A3A;
+  opacity: 0.5;
+}
+
+.right {
+  text-align: right;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+img {
+  background-color: black;
+}

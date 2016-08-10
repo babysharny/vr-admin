@@ -1,0 +1,96 @@
+<div class="main">
+  <h1 class="title">NEO</h1>
+
+  <div class="inputs">
+    <div class="row">
+
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <input type="text">
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <input type="text">
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-4">
+        <button>connect</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+
+  <div class="col-md-4 col-sm-4 col-xs-4">
+    <div class="time-block">
+      <h2 class="title">
+         Time
+      </h2>
+      <h1 class="time">
+        01:23
+      </h1>
+      <div class="switcher">
+        <button>15 min</button>
+        <button>30 min</button>
+        <button>45 min</button>
+        <button>1 hour</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-4">
+    <div class="names">
+      <p>John Doe</p>
+      <p>John Doe</p>
+      <p>John Doe</p>
+      <p>John Doe</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-4 col-xs-4">
+    <div class="bonus-block">
+      <h2 class="title">
+        Time
+      </h2>
+      <h1 class="time">
+        01:23
+      </h1>
+      <div class="switcher">
+        <button>15 min</button>
+        <button>30 min</button>
+        <button>45 min</button>
+        <button>1 hour</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="games-grid">
+    <div class="row" *ngFor="let gamesLine of games.rightGrid">
+      <div class="col-md-3 col-sm-3 col-xs-3 no-padding" *ngFor="let game of gamesLine">
+        <div class="game" (click)="selectGame(game)" [ngClass]="{selected: game.selected}">
+          <!--{{game.name}}-->
+          <img src={{game.logo}} width="100%" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <div class="row">
+
+
+      <div class="col-xs-8 left">
+        <button>Start Steam</button>
+        <button>Start VR</button>
+        <button>Music</button>
+        <button>Video</button>
+      </div>
+
+      <div class="col-xs-4 right">
+        <button (click)="gg()">Start!</button>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,72 @@
+{
+  "steamID64": "76561198321699378",
+  "steamID": "babysharny",
+  "games": [
+    {
+      "appID": "41080",
+      "name": "Serious Sam 3 Dedicated Server",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/33/338200c5d6c4d9bdcf6632642a2aeb591fb8a5c2.gif",
+      "storeLink": "http://steamcommunity.com/app/41080",
+      "hoursLast2Weeks": "10.7",
+      "hoursOnRecord": "10.7"
+    },
+    {
+      "appID": "496920",
+      "name": "Moirai",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/496920/58208004a1554d5ed00ead0c92dab483cf43c104.jpg",
+      "storeLink": "http://steamcommunity.com/app/496920",
+      "hoursLast2Weeks": "2.3",
+      "hoursOnRecord": "2.3"
+    },
+    {
+      "appID": "492800",
+      "name": "Shonen Idle Z",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/492800/a90c19ee45e4cbc580a180315503b0f346cce452.jpg",
+      "storeLink": "http://steamcommunity.com/app/492800",
+      "hoursLast2Weeks": "1.2",
+      "hoursOnRecord": "1.2",
+      "statsLink": "http://steamcommunity.com/profiles/76561198321699378/stats/492800",
+      "globalStatsLink": "http://steamcommunity.com/stats/492800/achievements/"
+    },
+    {
+      "appID": "447570",
+      "name": "Regeria Hope Episode 1",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/447570/d48566d9b0599be33cd5dbbb545cf856aa2d5779.jpg",
+      "storeLink": "http://steamcommunity.com/app/447570",
+      "hoursLast2Weeks": "0.3",
+      "hoursOnRecord": "0.3",
+      "statsLink": "http://steamcommunity.com/profiles/76561198321699378/stats/447570",
+      "globalStatsLink": "http://steamcommunity.com/stats/447570/achievements/"
+    },
+    {
+      "appID": "346330",
+      "name": "BrainBread 2",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/346330/391d372645ba724c0e22be05edcea9478a6a8a7e.jpg",
+      "storeLink": "http://steamcommunity.com/app/346330",
+      "hoursLast2Weeks": "0.2",
+      "hoursOnRecord": "0.2",
+      "statsLink": "http://steamcommunity.com/profiles/76561198321699378/stats/346330",
+      "globalStatsLink": "http://steamcommunity.com/stats/346330/achievements/"
+    },
+    {
+      "appID": "510750",
+      "name": "Driftwood The Visual Novel",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510750/c0c8864a40b080536df6f2f06eec7018e5d4f5a2.jpg",
+      "storeLink": "http://steamcommunity.com/app/510750"
+    },
+    {
+      "appID": "302380",
+      "name": "Floating Point",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/302380/b1e6c69982074c13032660362f37cfc528504d16.jpg",
+      "storeLink": "http://steamcommunity.com/app/302380"
+    },
+    {
+      "appID": "475100",
+      "name": "Kalonline",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/475100/3a7dfb28aa21f1277b8919ec6bdcdfef8d69a672.jpg",
+      "storeLink": "http://steamcommunity.com/app/475100",
+      "statsLink": "http://steamcommunity.com/profiles/76561198321699378/stats/475100",
+      "globalStatsLink": "http://steamcommunity.com/stats/475100/achievements/"
+    }
+  ]
+}

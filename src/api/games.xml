@@ -1,0 +1,170 @@
+<gamesList>
+  <steamID64>76561198321699378</steamID64>
+  <steamID>
+    <![CDATA[ babysharny ]]>
+  </steamID>
+  <games>
+    <game>
+      <appID>41080</appID>
+      <name>
+        <![CDATA[ Serious Sam 3 Dedicated Server ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/33/338200c5d6c4d9bdcf6632642a2aeb591fb8a5c2.gif
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/41080 ]]>
+      </storeLink>
+      <hoursLast2Weeks>10.7</hoursLast2Weeks>
+      <hoursOnRecord>10.7</hoursOnRecord>
+    </game>
+    <game>
+      <appID>496920</appID>
+      <name>
+        <![CDATA[ Moirai ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/496920/58208004a1554d5ed00ead0c92dab483cf43c104.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/496920 ]]>
+      </storeLink>
+      <hoursLast2Weeks>2.3</hoursLast2Weeks>
+      <hoursOnRecord>2.3</hoursOnRecord>
+    </game>
+    <game>
+      <appID>492800</appID>
+      <name>
+        <![CDATA[ Shonen Idle Z ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/492800/a90c19ee45e4cbc580a180315503b0f346cce452.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/492800 ]]>
+      </storeLink>
+      <hoursLast2Weeks>1.2</hoursLast2Weeks>
+      <hoursOnRecord>1.2</hoursOnRecord>
+      <statsLink>
+        <![CDATA[
+http://steamcommunity.com/profiles/76561198321699378/stats/492800
+]]>
+      </statsLink>
+      <globalStatsLink>
+        <![CDATA[
+http://steamcommunity.com/stats/492800/achievements/
+]]>
+      </globalStatsLink>
+    </game>
+    <game>
+      <appID>447570</appID>
+      <name>
+        <![CDATA[ Regeria Hope Episode 1 ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/447570/d48566d9b0599be33cd5dbbb545cf856aa2d5779.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/447570 ]]>
+      </storeLink>
+      <hoursLast2Weeks>0.3</hoursLast2Weeks>
+      <hoursOnRecord>0.3</hoursOnRecord>
+      <statsLink>
+        <![CDATA[
+http://steamcommunity.com/profiles/76561198321699378/stats/447570
+]]>
+      </statsLink>
+      <globalStatsLink>
+        <![CDATA[
+http://steamcommunity.com/stats/447570/achievements/
+]]>
+      </globalStatsLink>
+    </game>
+    <game>
+      <appID>346330</appID>
+      <name>
+        <![CDATA[ BrainBread 2 ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/346330/391d372645ba724c0e22be05edcea9478a6a8a7e.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/346330 ]]>
+      </storeLink>
+      <hoursLast2Weeks>0.2</hoursLast2Weeks>
+      <hoursOnRecord>0.2</hoursOnRecord>
+      <statsLink>
+        <![CDATA[
+http://steamcommunity.com/profiles/76561198321699378/stats/346330
+]]>
+      </statsLink>
+      <globalStatsLink>
+        <![CDATA[
+http://steamcommunity.com/stats/346330/achievements/
+]]>
+      </globalStatsLink>
+    </game>
+    <game>
+      <appID>510750</appID>
+      <name>
+        <![CDATA[ Driftwood The Visual Novel ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/510750/c0c8864a40b080536df6f2f06eec7018e5d4f5a2.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/510750 ]]>
+      </storeLink>
+    </game>
+    <game>
+      <appID>302380</appID>
+      <name>
+        <![CDATA[ Floating Point ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/302380/b1e6c69982074c13032660362f37cfc528504d16.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/302380 ]]>
+      </storeLink>
+    </game>
+    <game>
+      <appID>475100</appID>
+      <name>
+        <![CDATA[ Kalonline ]]>
+      </name>
+      <logo>
+        <![CDATA[
+http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/475100/3a7dfb28aa21f1277b8919ec6bdcdfef8d69a672.jpg
+]]>
+      </logo>
+      <storeLink>
+        <![CDATA[ http://steamcommunity.com/app/475100 ]]>
+      </storeLink>
+      <statsLink>
+        <![CDATA[
+http://steamcommunity.com/profiles/76561198321699378/stats/475100
+]]>
+      </statsLink>
+      <globalStatsLink>
+        <![CDATA[
+http://steamcommunity.com/stats/475100/achievements/
+]]>
+      </globalStatsLink>
+    </game>
+  </games>
+</gamesList>

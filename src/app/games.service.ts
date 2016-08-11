@@ -41,7 +41,7 @@ export class GamesService {
             );
 
           let grid = [];
-          let line = []
+          let line = [];
           this.right.forEach(
             (g: any, index: number, arr: any[]) => {
               line.push(g);

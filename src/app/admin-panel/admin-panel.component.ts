@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import {GamesService} from "../games.service";
 import {PlayersService} from "../players.service";
 import {NgClass} from "@angular/common";
@@ -12,6 +12,12 @@ import {NgClass} from "@angular/common";
 })
 export class AdminPanelComponent implements OnInit {
 
+  @Input() data = {
+    name: 'NEO',
+    steamId: '13123123',
+    remote: 'url',
+  };
+
   minutes = 15;
   bonuses: any;
 
@@ -21,7 +27,7 @@ export class AdminPanelComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.games.updateForId('steamId');
+    this.games.updateForId(this.data.steamId, this.data.remote);
   }
 
   selectGame(game) {

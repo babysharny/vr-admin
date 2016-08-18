@@ -21,7 +21,7 @@ export class GamesService {
 
   }
 
-  updateForId(steamId: any) {
+  updateForId(steamId: any, remote: any) {
 
     steamId = '76561198321699378';
 

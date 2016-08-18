@@ -1,76 +1,131 @@
-<div class="main">
-  <h1 class="title">NEO</h1>
+<div class="main"
+     style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"
+     unselectable="on"
+     onselectstart="return false;"
+     onmousedown="return false;">
+  <h2 class="title" align="center">NEO</h2>
 
-  <div class="inputs">
-    <div class="row">
+  <!--<div class="inputs">-->
+    <!--<div class="row">-->
 
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <input type="text">
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <input type="text">
-      </div>
-      <div class="col-md-4 col-sm-4 col-xs-4">
-        <button>connect</button>
-      </div>
+      <!--<div class="col-md-4 col-sm-4 col-xs-4">-->
+        <!--<input type="text">-->
+      <!--</div>-->
+      <!--<div class="col-md-4 col-sm-4 col-xs-4">-->
+        <!--<input type="text">-->
+      <!--</div>-->
+      <!--<div class="col-md-4 col-sm-4 col-xs-4">-->
+        <!--<button>connect</button>-->
+      <!--</div>-->
 
-    </div>
+    <!--</div>-->
 
-  </div>
+  <!--</div>-->
 
   <div class="row">
 
-
-  <div class="col-md-4 col-sm-4 col-xs-4">
+  <div class="col-md-6 col-sm-6 col-xs-6">
     <div class="time-block">
       <h2 class="title">
-         Time
+         Время
       </h2>
       <h1 class="time">
         01:23
       </h1>
-      <div class="switcher">
-        <button>15 min</button>
-        <button>30 min</button>
-        <button>45 min</button>
-        <button>1 hour</button>
-      </div>
+
     </div>
   </div>
 
-  <div class="col-md-4 col-sm-4 col-xs-4">
-    <div class="names">
-      <p>John Doe</p>
-      <p>John Doe</p>
-      <p>John Doe</p>
-      <p>John Doe</p>
-    </div>
-  </div>
+  <!--<div class="col-md-4 col-sm-4 col-xs-4">-->
+    <!--<div class="names">-->
+      <!--<p>John Doe</p>-->
+      <!--<p>John Doe</p>-->
+      <!--<p>John Doe</p>-->
+      <!--<p>John Doe</p>-->
+    <!--</div>-->
+  <!--</div>-->
 
-  <div class="col-md-4 col-sm-4 col-xs-4">
+  <div class="col-md-6 col-sm-6 col-xs-6">
     <div class="bonus-block">
       <h2 class="title">
-        Time
+        Цена
       </h2>
       <h1 class="time">
-        01:23
+        1000
       </h1>
-      <div class="switcher">
-        <button>15 min</button>
-        <button>30 min</button>
-        <button>45 min</button>
-        <button>1 hour</button>
-      </div>
     </div>
   </div>
   </div>
 
+  <div class="row">
+    <div class="col-md-6 col-sm-6 col-xs-6 no-padding">
+      <h3>таймер</h3>
+      <table>
+        <tr>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 15}"
+                    (click)="setTime(15)">15 минут</button>
+          </td>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 30}"
+                    (click)="setTime(30)">30 минут</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 45}"
+                    (click)="setTime(45)">45 минут</button>
+          </td>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 60}"
+                    (click)="setTime(60)">1 час</button>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6 right-switcher no-padding">
+
+      <h3>бонус / скидка</h3>
+      <table align="right">
+        <tr>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 15}"
+                    (click)="setTime(15)">5 минут</button>
+          </td>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 30}"
+                    (click)="setTime(30)">10 минут</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 45}"
+                    (click)="setTime(45)">20%</button>
+          </td>
+          <td>
+            <button class="btn btn-default"
+                    [ngClass]="{'selected': minutes == 60}"
+                    (click)="setTime(60)">30%</button>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
   <div class="games-grid">
     <div class="row" *ngFor="let gamesLine of games.rightGrid">
       <div class="col-md-3 col-sm-3 col-xs-3 no-padding" *ngFor="let game of gamesLine">
         <div class="game" (click)="selectGame(game)" [ngClass]="{selected: game.selected}">
           <!--{{game.name}}-->
-          <img src={{game.logo}} width="100%" alt="">
+          <img class="asd" src={{game.logo_big}} onerror="this.src='./img/game_no_img.gif'" width="100%" height="150%" alt="">
         </div>
       </div>
     </div>
@@ -79,18 +134,29 @@
   <div class="actions">
     <div class="row">
 
-
       <div class="col-xs-8 left">
-        <button>Start Steam</button>
-        <button>Start VR</button>
-        <button>Music</button>
-        <button>Video</button>
+        <button class="btn btn-img" id="steam">
+          <img class="right-bottom-img" src="./img/reload-icon-hi copy.png" alt="">
+        </button>
+        <button class="btn btn-img" id="vr">
+          <img class="right-bottom-img" src="./img/reload-icon-hi copy.png" alt="">
+        </button>
+        <button class="btn btn-img" id="music">
+          <img class="right-bottom-img" src="./img/pause.png" alt="">
+        </button>
+        <button class="btn btn-img" id="video">
+          <img class="right-bottom-img" src="./img/pause.png" alt="">
+        </button>
       </div>
 
       <div class="col-xs-4 right">
-        <button (click)="gg()">Start!</button>
+        <button class="btn btn-img" id="gg" (click)="gg()">Start!</button>
       </div>
     </div>
   </div>
 
+</div>
+
+<div class="footer">
+  asdsadsadsadsad
 </div>

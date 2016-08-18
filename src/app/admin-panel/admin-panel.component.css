@@ -1,11 +1,58 @@
 .main {
-  background-color: #7fdbff;
-  padding: 30px 10% 30px 10%;
+  padding: 30px 5% 30px 5%;
   height: 100%;
+  /*height: 100%;*/
+  /*display: -webkit-box;*/
 }
 
 h1.title {
   text-align: center;
+}
+
+.btn-default {
+  background-color: transparent;
+  padding: 3px 9px;
+  font-size: large;
+  width: 100%;
+  font-variant: small-caps;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2.title {
+  margin-bottom: 5px;
+}
+
+h1.time {
+  margin-top: 0px;
+}
+
+h3 {
+  font-size: large;
+  margin-bottom: 3px;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+
+}
+
+.right-switcher {
+  text-align: left;
+  width: auto;
+  float: right;
+}
+
+button.selected {
+  background-color: #181818;
+  /*opacity: 0.4;*/
 }
 
 .bonus-block {
@@ -19,15 +66,13 @@ h1.title {
   height: auto;
 }
 
-.selected {
-  color: #3A3A3A;
-  opacity: 0.5;
-}
-
 .right {
   text-align: right;
 }
 
+td {
+  padding: 5px;
+}
 .no-padding {
   padding: 0px;
 }
@@ -35,3 +80,88 @@ h1.title {
 img {
   background-color: black;
 }
+.game>img {
+  height: 150%;
+  /*background-size: cover;*/
+  /*max-width:80%;*/
+  /*max-height:100%;*/
+  /*width:auto;*/
+  /*height:auto;*/
+  object-fit: cover;
+}
+
+.selected>img {
+  opacity: 0.5;
+  /*opacity: 0.5;*/
+  border: thin double #0dff2f;
+}
+
+.btn-img {
+  background-color: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 55px;
+  width: 55px;
+  /* padding: 10px; */
+  margin: 10px 25px 0 0;
+  padding: 35px 0 0 35px;
+}
+
+.btn-img:hover {
+  opacity: 0.7;
+  /*box-shadow: 0 0 10px rgba(0,0,0,0.5); !* Параметры тени *!*/
+  /*padding: 10px;*/
+}
+
+.btn-img:active {
+  opacity: 0.4;
+}
+
+#steam {
+  background-image: url("./img/share_steam_logo.png");
+}
+
+#music {
+  background-image: url("./img/clipart-music-notes-musical_notes_set_black.png");
+}
+
+#video {
+  background-image: url("./img/video-icon-2.png");
+}
+
+#reload {
+  background-image: url("./img/reload-icon-hi copy.png");
+}
+
+#pause {
+  background-image: url("./img/pause.png");
+}
+
+.right-bottom-img {
+  background-color: transparent;
+}
+
+#vr {
+  margin-top: 15px;
+  height: 45px;
+  width: 80px;
+  padding: 30px 0 0 60px;
+  background-image: url("./img/Layer 13 copy.png");
+}
+
+#gg {
+  height: 55px;
+  width: 173px;
+  background-image: url("./img/1194984762373696923pill-button-red_benji_pa_01.svg.hi.png");
+}
+
+
+/*.footer {*/
+  /*background-color: orange;*/
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*bottom: 0;*/
+  /*height: 100px;*/
+  /*width: 100%;*/
+  /*overflow:hidden;*/
+/*}*/

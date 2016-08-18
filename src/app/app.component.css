@@ -1,0 +1,9 @@
+.verticalLine {
+  /*border-bottom-width: thin;*/
+  border-left: thin dashed whitesmoke;
+}
+
+.row {
+  height: 100%;
+  overflow-y: scroll;
+}

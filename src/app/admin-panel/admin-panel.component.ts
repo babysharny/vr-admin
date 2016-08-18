@@ -1,14 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import {GamesService} from "../games.service";
 import {PlayersService} from "../players.service";
+import {NgClass} from "@angular/common";
 
 @Component({
   moduleId: module.id,
   selector: 'app-admin-panel',
+  directives: [NgClass],
   templateUrl: 'admin-panel.component.html',
   styleUrls: ['admin-panel.component.css']
 })
 export class AdminPanelComponent implements OnInit {
+
+  minutes = 15;
+  bonuses: any;
 
   constructor(
     private games: GamesService,
@@ -51,5 +56,7 @@ export class AdminPanelComponent implements OnInit {
     this.remote.startSteam();
   }
 
-
+  setTime(min: number) {
+    this.minutes = min;
+  }
 }

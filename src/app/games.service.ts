@@ -22,7 +22,9 @@ export class GamesService {
   }
 
   updateForId(steamId: any) {
+
     steamId = '76561198321699378';
+
     // let url = `http://steamcommunity.com/profiles/${steamId}/games/?tab=all&xml=1`;
     // let url = `./api/games.xml`;
     let url = `./api/games.json`;
@@ -36,6 +38,8 @@ export class GamesService {
           this.right = obj.games
             .map((x: any) => {
                 x.selected = false;
+                x.logo_big = `http://cdn.akamai.steamstatic.com/steam/apps/${x.appID}/header.jpg`;
+                x.logo = `this.src='${x.logo}'`;
                 return x;
               }
             );

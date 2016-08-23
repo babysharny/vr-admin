@@ -23,11 +23,12 @@ export class GamesService {
 
   updateForId(steamId: any, remote: any) {
 
-    steamId = '76561198321699378';
+    steamId = '76561198314313838';
 
     // let url = `http://steamcommunity.com/profiles/${steamId}/games/?tab=all&xml=1`;
     // let url = `./api/games.xml`;
-    let url = `./api/games.json`;
+    // let url = `./api/games.json`;
+    let url = `./api/switch_games.json`;
     // let url = `./api/games_all.json`;
     this.http.get(url)
       .subscribe(

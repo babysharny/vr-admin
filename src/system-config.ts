@@ -32,11 +32,16 @@ const barrels: string[] = [
 
   // Thirdparty barrels.
   'rxjs',
-
+  // 'angular2-text-mask',
   // App specific barrels.
   'app',
   'app/shared',
   'app/admin-panel',
+  'app/admin-panel/player-login',
+  'app/admin-panel/state-info',
+  'app/admin-panel/state-switchers',
+  'app/admin-panel/games-grid',
+  'app/admin-panel/main-actions',
   /** @cli-barrel */
 ];
 
@@ -54,6 +59,7 @@ System.config({
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
     'main': 'main.js'
+    // 'angular2-text-mask': 'vendor/angular2-text-mask/dist/angular2TextMask.js',
   },
   packages: cliSystemConfigPackages
 });

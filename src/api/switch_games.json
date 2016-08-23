@@ -1,0 +1,274 @@
+{
+  "steamID64": "76561198314313838",
+  "steamID": "Switch",
+  "games": [
+    {
+      "appID": "380220",
+      "name": "Hover Junkers",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/380220/37d2f69ee1efb6f56e5b3595a0f1c3e88640e5f4.jpg",
+      "storeLink": "http://steamcommunity.com/app/380220",
+      "hoursLast2Weeks": "11.3",
+      "hoursOnRecord": "32",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/380220",
+      "globalStatsLink": "http://steamcommunity.com/stats/380220/achievements/"
+    },
+    {
+      "appID": "440630",
+      "name": "The Brookhaven Experiment",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/440630/1d95ed9ebba3fbbd1373f267b9fd56599602b780.jpg",
+      "storeLink": "http://steamcommunity.com/app/440630",
+      "hoursLast2Weeks": "6.6",
+      "hoursOnRecord": "28"
+    },
+    {
+      "appID": "450390",
+      "name": "The Lab",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/450390/dde7f70d5d590ba242ca8fcfaac9fe9b5e5e8754.jpg",
+      "storeLink": "http://steamcommunity.com/app/450390",
+      "hoursLast2Weeks": "6.6",
+      "hoursOnRecord": "29",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/450390",
+      "globalStatsLink": "http://steamcommunity.com/stats/450390/achievements/"
+    },
+    {
+      "appID": "344180",
+      "name": "Valiant",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/344180/441723cc7875ca4fe7d3b6d1d5a8ae424ccd1a2d.jpg",
+      "storeLink": "http://steamcommunity.com/app/344180",
+      "hoursLast2Weeks": "5.4",
+      "hoursOnRecord": "20"
+    },
+    {
+      "appID": "418650",
+      "name": "Space Pirate Trainer",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/418650/303c70c2ba6842a0603a9df28443fb570edade0c.jpg",
+      "storeLink": "http://steamcommunity.com/app/418650",
+      "hoursLast2Weeks": "5.1",
+      "hoursOnRecord": "16.4"
+    },
+    {
+      "appID": "512220",
+      "name": "Trickster VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/512220/69c1166c46c23d2892ca70881a9f14b17d9b9e54.jpg",
+      "storeLink": "http://steamcommunity.com/app/512220",
+      "hoursLast2Weeks": "4.5",
+      "hoursOnRecord": "4.5"
+    },
+    {
+      "appID": "412740",
+      "name": "Audioshield",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/412740/8e8c19e0e77cf545cbc4a50506bfa554061e1f74.jpg",
+      "storeLink": "http://steamcommunity.com/app/412740",
+      "hoursLast2Weeks": "3.3",
+      "hoursOnRecord": "9.6"
+    },
+    {
+      "appID": "327140",
+      "name": "Tilt Brush",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/327140/1cfc76d8334e75d7b23a6c53aaa4c95b3068df01.jpg",
+      "storeLink": "http://steamcommunity.com/app/327140",
+      "hoursLast2Weeks": "2.4",
+      "hoursOnRecord": "8.1"
+    },
+    {
+      "appID": "512080",
+      "name": "Fancy Skiing VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/512080/cb95b862957c01550f415d8c915f87ac1c638d57.jpg",
+      "storeLink": "http://steamcommunity.com/app/512080",
+      "hoursLast2Weeks": "2.2",
+      "hoursOnRecord": "2.2"
+    },
+    {
+      "appID": "412050",
+      "name": "HordeZ",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/412050/3389169c5159683fb3763ed00c0908bb778fe907.jpg",
+      "storeLink": "http://steamcommunity.com/app/412050",
+      "hoursLast2Weeks": "1.8",
+      "hoursOnRecord": "12.8",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/412050",
+      "globalStatsLink": "http://steamcommunity.com/stats/412050/achievements/"
+    },
+    {
+      "appID": "570",
+      "name": "Dota 2",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/570/d4f836839254be08d8e9dd333ecc9a01782c26d2.jpg",
+      "storeLink": "http://steamcommunity.com/app/570",
+      "hoursLast2Weeks": "1.4",
+      "hoursOnRecord": "1.4"
+    },
+    {
+      "appID": "473910",
+      "name": "The Nest",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/473910/da47dbd9b5cfa20a9d011e45fe246573c1cd0400.jpg",
+      "storeLink": "http://steamcommunity.com/app/473910",
+      "hoursLast2Weeks": "1.2",
+      "hoursOnRecord": "2.4"
+    },
+    {
+      "appID": "436320",
+      "name": "Raw Data",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/436320/64f5f24a9a5907c0c00a7f5e3aad2c3b65281c26.jpg",
+      "storeLink": "http://steamcommunity.com/app/436320",
+      "hoursLast2Weeks": "1.0",
+      "hoursOnRecord": "10.0",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/436320",
+      "globalStatsLink": "http://steamcommunity.com/stats/436320/achievements/"
+    },
+    {
+      "appID": "486780",
+      "name": "Fruit Ninja VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/486780/08d40afddfcbf254ba3e81e83c67ccacdec8721a.jpg",
+      "storeLink": "http://steamcommunity.com/app/486780",
+      "hoursLast2Weeks": "0.6",
+      "hoursOnRecord": "0.6",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/486780",
+      "globalStatsLink": "http://steamcommunity.com/stats/486780/achievements/"
+    },
+    {
+      "appID": "341800",
+      "name": "Keep Talking and Nobody Explodes",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/341800/a8fbfc2f460c7dd086833608f37fc64c67a340e4.jpg",
+      "storeLink": "http://steamcommunity.com/app/341800",
+      "hoursLast2Weeks": "0.2",
+      "hoursOnRecord": "0.2",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/341800",
+      "globalStatsLink": "http://steamcommunity.com/stats/341800/achievements/"
+    },
+    {
+      "appID": "458590",
+      "name": "ABE VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/458590/14b8ba9ee5365dc3945e371b170924e8c60c86b5.jpg",
+      "storeLink": "http://steamcommunity.com/app/458590",
+      "hoursOnRecord": "0.4"
+    },
+    {
+      "appID": "504630",
+      "name": "Broomball",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/504630/d3655f3807a1dad2e7f144d036c0b7b6f52e7c93.jpg",
+      "storeLink": "http://steamcommunity.com/app/504630"
+    },
+    {
+      "appID": "457960",
+      "name": "Holopoint",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457960/a6d5a784020ecfc0b20727321c6b3fd47a6c48a2.jpg",
+      "storeLink": "http://steamcommunity.com/app/457960",
+      "hoursOnRecord": "3.5",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/457960",
+      "globalStatsLink": "http://steamcommunity.com/stats/457960/achievements/"
+    },
+    {
+      "appID": "343740",
+      "name": "InMind VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/343740/167e3e619d2e2368570dff88d026b707eae47f4f.jpg",
+      "storeLink": "http://steamcommunity.com/app/343740"
+    },
+    {
+      "appID": "343730",
+      "name": "Irrational Exuberance: Prologue",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/343730/a3fcaf4b65d84581e881df1198f724fea909ad87.jpg",
+      "storeLink": "http://steamcommunity.com/app/343730",
+      "hoursOnRecord": "0.6"
+    },
+    {
+      "appID": "496920",
+      "name": "Moirai",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/496920/58208004a1554d5ed00ead0c92dab483cf43c104.jpg",
+      "storeLink": "http://steamcommunity.com/app/496920"
+    },
+    {
+      "appID": "468700",
+      "name": "NVIDIA® VR Funhouse",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/468700/e5c91e2a365a999381571ec7e47836cd93e85272.jpg",
+      "storeLink": "http://steamcommunity.com/app/468700",
+      "hoursOnRecord": "0.8",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/468700",
+      "globalStatsLink": "http://steamcommunity.com/stats/468700/achievements/"
+    },
+    {
+      "appID": "452710",
+      "name": "Realities",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/452710/8a4e9f7af43967df5a737a10ba445f52196f4b16.jpg",
+      "storeLink": "http://steamcommunity.com/app/452710",
+      "hoursOnRecord": "1.8"
+    },
+    {
+      "appID": "471710",
+      "name": "Rec Room",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/471710/631341374cc27152f912283e34a2b003aa025ad3.jpg",
+      "storeLink": "http://steamcommunity.com/app/471710",
+      "hoursOnRecord": "2.1",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/471710",
+      "globalStatsLink": "http://steamcommunity.com/stats/471710/achievements/"
+    },
+    {
+      "appID": "455440",
+      "name": "Spell Fighter VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/455440/2faf19832a9885b73aa372e6fb6822ce7790b9b6.jpg",
+      "storeLink": "http://steamcommunity.com/app/455440",
+      "hoursOnRecord": "1.2"
+    },
+    {
+      "appID": "457420",
+      "name": "Surgeon Simulator VR: Meet The Medic",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/457420/60b7cdbb839abedf3aa4c9c2354b38e5f7d9b4b6.jpg",
+      "storeLink": "http://steamcommunity.com/app/457420",
+      "hoursOnRecord": "1.1"
+    },
+    {
+      "appID": "482390",
+      "name": "The Night Cafe",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/482390/282d206bb4a7850e80c479474e38130bd20f2f33.jpg",
+      "storeLink": "http://steamcommunity.com/app/482390"
+    },
+    {
+      "appID": "381940",
+      "name": "Trials on Tatooine",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/381940/716860d540665a9f1860fa54bdef28657cb775e4.jpg",
+      "storeLink": "http://steamcommunity.com/app/381940",
+      "hoursOnRecord": "0.4"
+    },
+    {
+      "appID": "500380",
+      "name": "UNCORPOREAL - Fluffy!",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/500380/c4fe9af3d37f28417919213d6642f56b349a2237.jpg",
+      "storeLink": "http://steamcommunity.com/app/500380"
+    },
+    {
+      "appID": "304930",
+      "name": "Unturned",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/304930/32b7ea686e0fb11e24008e4dab179a40a6b2eb09.jpg",
+      "storeLink": "http://steamcommunity.com/app/304930",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/304930",
+      "globalStatsLink": "http://steamcommunity.com/stats/304930/achievements/"
+    },
+    {
+      "appID": "466720",
+      "name": "Vintage VR",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/466720/f9deff1326f2eef639701ae1c01f81495b1dded8.jpg",
+      "storeLink": "http://steamcommunity.com/app/466720"
+    },
+    {
+      "appID": "468240",
+      "name": "VR Regatta",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/468240/8f8b4c8700dc05b0d3ac22d509b121a05ae42828.jpg",
+      "storeLink": "http://steamcommunity.com/app/468240",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/468240",
+      "globalStatsLink": "http://steamcommunity.com/stats/468240/achievements/"
+    },
+    {
+      "appID": "436820",
+      "name": "Waltz of the Wizard",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/436820/0704176faf417be186eb89e437f14f965b6541dd.jpg",
+      "storeLink": "http://steamcommunity.com/app/436820",
+      "hoursOnRecord": "0.7"
+    },
+    {
+      "appID": "236390",
+      "name": "War Thunder",
+      "logo": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/236390/219b91aa76b2c6325b763af5e4ad411fab535bf9.jpg",
+      "storeLink": "http://steamcommunity.com/app/236390",
+      "statsLink": "http://steamcommunity.com/profiles/76561198314313838/stats/WarThunder",
+      "globalStatsLink": "http://steamcommunity.com/stats/WarThunder/achievements/"
+    }
+  ]
+}

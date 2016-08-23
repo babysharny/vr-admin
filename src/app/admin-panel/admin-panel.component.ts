@@ -1,12 +1,27 @@
-import {Component, OnInit, Input} from '@angular/core';
-import {GamesService} from "../games.service";
-import {PlayersService} from "../players.service";
+import {Component, OnInit, Input, ViewEncapsulation} from '@angular/core';
+import {GamesService} from "../services/games.service";
+import {PlayersService} from "../services/players.service";
 import {NgClass} from "@angular/common";
+import {GamesGridComponent} from "./games-grid/games-grid.component";
+import {MainActionsComponent} from "./main-actions/main-actions.component";
+import {PlayerLoginComponent} from "./player-login/player-login.component";
+import {StateInfoComponent} from "./state-info/state-info.component";
+import {StateSwitchersComponent} from "./state-switchers/state-switchers.component";
+import {SessionService} from "../services/session.service";
 
 @Component({
   moduleId: module.id,
   selector: 'app-admin-panel',
-  directives: [NgClass],
+  directives: [
+    NgClass,
+    PlayerLoginComponent,
+    StateInfoComponent,
+    StateSwitchersComponent,
+    GamesGridComponent,
+    MainActionsComponent
+  ],
+  encapsulation: ViewEncapsulation.None,
+  providers: [SessionService],
   templateUrl: 'admin-panel.component.html',
   styleUrls: ['admin-panel.component.css']
 })
@@ -18,7 +33,6 @@ export class AdminPanelComponent implements OnInit {
     remote: 'url',
   };
 
-  minutes = 15;
   bonuses: any;
 
   constructor(
@@ -30,14 +44,7 @@ export class AdminPanelComponent implements OnInit {
     this.games.updateForId(this.data.steamId, this.data.remote);
   }
 
-  selectGame(game) {
-    this.games.rightGrid.forEach(line => {
-      line.forEach(g => {
-        g.selected = false;
-      })
-    });
-    game.selected = true;
-  }
+
 
   getSelectedGame() {
     let res;
@@ -52,17 +59,11 @@ export class AdminPanelComponent implements OnInit {
     return res;
   }
 
-  gg(){
-    let g = this.getSelectedGame();
-    console.info(g);
-    this.remote.startGame(g);
-  }
+
 
   startSteam(){
     this.remote.startSteam();
   }
 
-  setTime(min: number) {
-    this.minutes = min;
-  }
+
 }

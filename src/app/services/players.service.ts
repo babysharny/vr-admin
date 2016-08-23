@@ -13,7 +13,7 @@ export class PlayersService {
   }
 
   startGame(game) {
-    let host = '192.168.1.65:8080';
+    let host = '192.168.88.149:8080';
     // let host = 'localhost:8080';
     // let url = `http://${host}/1/employees/${game.appID}?secret_admin=boilerplatesRock`;
     let url = `http://${host}/1/steam?cmd="steam://run/${game.appID}"`;

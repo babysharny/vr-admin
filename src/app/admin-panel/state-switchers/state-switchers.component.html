@@ -37,25 +37,25 @@
       <tr>
         <td>
           <button class="btn btn-default"
-                  [ngClass]="{'selected': minutes == 15}"
-                  (click)="setTime(15)">5 минут</button>
+                  [ngClass]="{'selected': session.freeMinutes == 5}"
+                  (click)="setBonus(5)">5 минут</button>
         </td>
         <td>
           <button class="btn btn-default"
-                  [ngClass]="{'selected': minutes == 30}"
-                  (click)="setTime(30)">10 минут</button>
+                  [ngClass]="{'selected': session.freeMinutes == 10}"
+                  (click)="setBonus(10)">10 минут</button>
         </td>
       </tr>
       <tr>
         <td>
           <button class="btn btn-default"
-                  [ngClass]="{'selected': minutes == 45}"
-                  (click)="setTime(45)">20%</button>
+                  [ngClass]="{'selected': session.discount == 20}"
+                  (click)="setDiscount(20)">20%</button>
         </td>
         <td>
           <button class="btn btn-default"
-                  [ngClass]="{'selected': minutes == 60}"
-                  (click)="setTime(60)">30%</button>
+                  [ngClass]="{'selected': session.discount == 30}"
+                  (click)="setDiscount(30)">30%</button>
 
         </td>
       </tr>

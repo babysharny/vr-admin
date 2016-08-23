@@ -19,4 +19,24 @@ export class StateSwitchersComponent implements OnInit {
   setTime(minutes: number) {
     this.session.minutes = minutes;
   }
+
+  setBonus(bonus: number) {
+    if(this.session.freeMinutes == bonus) {
+      this.session.freeMinutes = 0;
+    }
+    else {
+      this.session.freeMinutes = bonus;
+    }
+  }
+
+  setDiscount(discount: number) {
+    if (this.session.discount == discount) {
+      this.session.discount = 0;
+    }
+    else {
+      this.session.discount = discount;
+    }
+
+  }
+
 }

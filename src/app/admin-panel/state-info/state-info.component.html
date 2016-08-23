@@ -6,7 +6,7 @@
       <h2 *ngIf="!timeModeLeft" class="title">Время</h2>
       <h2 *ngIf="timeModeLeft" class="title">Осталось</h2>
       <h1 class="time">
-        {{session.timer.moment | timeLeft:[timeModeLeft, session.minutes*60]}}
+        {{session.timer.moment | timeLeft:[timeModeLeft, (session.minutes + session.freeMinutes)*60]}}
       </h1>
 
     </div>
@@ -24,7 +24,8 @@
         Цена
       </h2>
       <h1 class="time">
-        1000₽
+        {{session.timer.moment | payment:[session.freeMinutes*60, session.discount]}}
+        ₽<!--1000₽-->
       </h1>
     </div>
   </div>

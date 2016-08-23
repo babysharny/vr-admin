@@ -21,6 +21,15 @@ export class SessionService {
 
   // minutes = 60;
   minutes = 15;
+  freeMinutes = 0;
+  discount = 0;
+
+  priceList = {
+    min15:  350,
+    min30:  650,
+    min45:  800,
+    min60: 1000,
+  };
 
   constructor() { }
 
@@ -56,7 +65,7 @@ export class StopWatch {
     this.timer = setInterval(
       () => {
         this.moment += 1;
-        console.log('time ', this.toH())
+        // console.log('time ', this.toH())
       },
       1000
     );

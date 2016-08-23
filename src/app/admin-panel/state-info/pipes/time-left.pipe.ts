@@ -5,10 +5,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TimeLeftPipe implements PipeTransform {
 
-  transform(value: any, isLeft?: any, fullTime?: number): any {
+  transform(value: any, args?: any): any {
     // return ;
-    fullTime = isLeft[1];
-    isLeft = isLeft[0];
+    let isLeft =   args[0];
+    let fullTime = args[1];
+    let freeTime = args[2];
+
 
     if(isLeft) {
       value = fullTime - value;
